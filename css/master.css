@@ -43,6 +43,13 @@ body {
     font-family: 'Nunito', sans-serif;
 }
 
+#intro-chevron {
+    text-align: center;
+    font-size: 2em;
+    color: white;
+    padding-top: 65vh;
+}
+
 #intro-linkedin {
     border-radius: 5px;
     background: #4198ff;
