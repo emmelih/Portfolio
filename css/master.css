@@ -31,7 +31,12 @@ body {
     text-align: center;
     padding: 1vw 2vw 1vw 2vw;
     margin: 0 auto;
-    width: 20vw;
+    width: 30vw;
+}
+
+#intro-summary, #intro-summary a {
+    font-family: 'Nunito', sans-serif;
+    color: black;
 }
 
 #intro-name {
