@@ -8,9 +8,9 @@ body {
 }
 
 .hide-scrollbar {
-    position: absolute;
-    padding: 0 20px 0 0;
-    overflow-y: scroll;
+    /* position: absolute; */
+    /* padding: 0 20px 0 0; */
+    /* overflow-x: hidden; */
     top: 0;
     left: 0;
 }
