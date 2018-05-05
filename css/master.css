@@ -20,3 +20,8 @@ body {
     height: 100vh;
     width: 100vw;
 }
+
+#intro, #legend {
+    height: 100vh;
+    width: 100vw;
+}
