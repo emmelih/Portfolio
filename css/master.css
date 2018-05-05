@@ -39,15 +39,28 @@ body {
 }
 
 #intro-linkedin {
-    border-radius: 5px;
     background: #4198ff;
-    padding: 4px 6px;
     color: #ffffff;
 }
 
 #intro-linkedin:hover {
     background: #2c7bd9;
 }
+
+#intro-gmail {
+    background: #ff6262;
+    color: #ffffff;
+}
+
+#intro-gmail:hover {
+    background: #dd4747;
+}
+
+#intro-linkedin, #intro-gmail {
+    border-radius: 5px;
+    padding: 4px 6px;
+}
+
 
 .vcenter {
     position: relative;
