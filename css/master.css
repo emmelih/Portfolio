@@ -1,5 +1,9 @@
 body {
-    overflow: hidden;
+    background: linear-gradient(to top left, #66ffe8, #b945e2);
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
     margin: 0;
 }
 
@@ -9,14 +13,9 @@ body {
     overflow-y: scroll;
     top: 0;
     left: 0;
-    right: -10px;
 }
 
 .content {
-    background: linear-gradient(to top left, #66ffe8, #b945e2);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
     height: 100vh;
     width: 100vw;
 }
