@@ -33,6 +33,17 @@ body {
     width: 20vw;
 }
 
+#intro-linkedin {
+    border-radius: 5px;
+    background: #4198ff;
+    padding: 4px 6px;
+    color: #ffffff;
+}
+
+#intro-linkedin:hover {
+    background: #2c7bd9;
+}
+
 .vcenter {
     position: relative;
     transform: translateY(-50%);
