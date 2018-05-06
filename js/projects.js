@@ -6,9 +6,6 @@ $(document).ready(function() {
         add_project(project)
     })
 
-    // temporary event listener for the overview section so that the view can be restored
-    $('#overview').click((e) => move_panorama(0))
-
 })
 
 /* add the passed project to the list in the legend-section */
@@ -32,7 +29,10 @@ function add_project(project) {
     border.css('border-color', hex2rgba(project.colorhex, 0.7))
 
     // add click event listener
-    border.click((e) => move_panorama(-$('#legend').width()))
+    border.click(function (e) {
+        move_panorama(-$('#legend').width())
+        $('body').css('overflow-y', 'hidden')
+    })
 
     // assemble the complete list item and add it tot the list
     item.append(
