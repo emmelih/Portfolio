@@ -3,7 +3,6 @@
     background-color: #fff2f2;
     overflow-y: scroll;
     padding-top: 10%;
-    vertical-align:middle;
 }
 
 #overview-header {
@@ -44,7 +43,7 @@
 
 #overview-date {
     margin-bottom: 2.5%;
-    margin-left:5%;
+    margin-left: 5%;
     color:#b5b5b5
 }
 
@@ -64,7 +63,7 @@
 }
 
 #overview-meta {
-    width: 30%;
+    width: 35%;
     margin-left: 5%;
 }
 
