@@ -42,6 +42,12 @@
     width: 60%;
 }
 
+#overview-date {
+    margin-bottom: 2.5%;
+    margin-left:5%;
+    color:#b5b5b5
+}
+
 .overview-text {
     font-family: 'Nunito', sans-serif;
     font-size: 1em;
@@ -55,10 +61,6 @@
     background-color: #ffffff;
     margin-bottom: 5%;
     padding: 2.5% 5%;
-}
-
-.overview-text p {
-    margin-top: 0;
 }
 
 #overview-meta {
@@ -80,5 +82,4 @@
 
 .overview-contrubutors {
     color: #8a8a8a;
-    margin: 0;
 }
