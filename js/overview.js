@@ -7,7 +7,6 @@ $(document).ready(function() {
         $('body').css('overflow-y', 'scroll')
     })
 
-    display_project(projects[0])
 })
 
 /* align the project overview with the current view */
@@ -22,7 +21,9 @@ function display_project (project) {
     $('#overview-title').text(project.title)
     $('#overview-date').text(project.date)
     $('#overview-image').attr('src', project.image_url)
+
     // add each paragraph of the description
+    $('#overview-description').text('')
     project.description.forEach((par) => {
         $('#overview-description').append(
             $('<p/>', {
@@ -31,6 +32,7 @@ function display_project (project) {
         )
     })
     // add each paragraph of the statement of contribution
+    $('#overview-contribution').text('')
     project.contribution.forEach((par) => {
         $('#overview-contribution').append(
             $('<p/>', {
@@ -39,6 +41,7 @@ function display_project (project) {
         )
     })
     // add each paragraph of the statement of contribution
+    $('#overview-team').text('')
     project.team.forEach((member) => {
         $('#overview-team').append(
             $('<p/>', {
