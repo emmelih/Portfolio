@@ -1,44 +1,88 @@
 /*
- * Author: Alessandro Gubitosi (https://gist.github.com/gubi)
+ * Original author: Alessandro Gubitosi (https://gist.github.com/gubi)
  * Source: https://gist.github.com/gubi/8483199/
+ *
+ * Altered to enable both horizontal and vertical bounce.
  */
 
-.fa-bounce {
+/* vertical bounce */
+.fa-vbounce {
     display: inline-block;
     position: relative;
-    -moz-animation: bounce 1s infinite linear;
-    -o-animation: bounce 1s infinite linear;
-    -webkit-animation: bounce 1s infinite linear;
-    animation: bounce 1s infinite linear;
+    -moz-animation: vbounce 1s infinite linear;
+    -o-animation: vbounce 1s infinite linear;
+    -webkit-animation: vbounce 1s infinite linear;
+    animation: vbounce 1s infinite linear;
 }
 
-@-webkit-keyframes bounce {
+@-webkit-keyframes vbounce {
     0% { top: 0; }
     50% { top: -0.2em; }
     70% { top: -0.3em; }
     100% { top: 0; }
 }
-@-moz-keyframes bounce {
+@-moz-keyframes vbounce {
     0% { top: 0; }
     50% { top: -0.2em; }
     70% { top: -0.3em; }
     100% { top: 0; }
 }
-@-o-keyframes bounce {
+@-o-keyframes vbounce {
     0% { top: 0; }
     50% { top: -0.2em; }
     70% { top: -0.3em; }
     100% { top: 0; }
 }
-@-ms-keyframes bounce {
+@-ms-keyframes vbounce {
     0% { top: 0; }
     50% { top: -0.2em; }
     70% { top: -0.3em; }
     100% { top: 0; }
 }
-@keyframes bounce {
+@keyframes vbounce {
     0% { top: 0; }
     50% { top: -0.2em; }
     70% { top: -0.3em; }
     100% { top: 0; }
+}
+
+/* horizontal bounce */
+.fa-hbounce {
+    display: inline-block;
+    position: relative;
+    -moz-animation: hbounce 1s infinite linear;
+    -o-animation: hbounce 1s infinite linear;
+    -webkit-animation: hbounce 1s infinite linear;
+    animation: hbounce 1s infinite linear;
+}
+
+@-webkit-keyframes hbounce {
+    0% { right: 0; }
+    50% { right: -0.2em; }
+    70% { right: -0.3em; }
+    100% { right: 0; }
+}
+@-moz-keyframes hbounce {
+    0% { right: 0; }
+    50% { right: -0.2em; }
+    70% { right: -0.3em; }
+    100% { right: 0; }
+}
+@-o-keyframes hbounce {
+    0% { right: 0; }
+    50% { right: -0.2em; }
+    70% { right: -0.3em; }
+    100% { right: 0; }
+}
+@-ms-keyframes hbounce {
+    0% { right: 0; }
+    50% { right: -0.2em; }
+    70% { right: -0.3em; }
+    100% { right: 0; }
+}
+@keyframes hbounce {
+    0% { right: 0; }
+    50% { right: -0.2em; }
+    70% { right: -0.3em; }
+    100% { right: 0; }
 }
