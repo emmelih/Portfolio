@@ -1,0 +1,35 @@
+
+#overview {
+    background-color: #ffffff;
+    overflow-y: scroll;
+    padding-top: 10%;
+    vertical-align:middle;
+}
+
+#overview-header {
+    display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+
+	-ms-flex-align: center;
+	-webkit-align-items: center;
+	-webkit-box-align: center;
+
+	align-items: center;
+}
+
+#overview-return {
+    width: 10%;
+    text-align: center;
+    font-size: 2em;
+}
+
+#overview-title {
+    font-family: 'Varela Round', sans-serif;
+    font-size: 3em;
+    line-height: 1em;
+}
+
+#overview-return, #overview-header {
+    color: #ff627e;
+}
