@@ -18,7 +18,10 @@ var projects = [
             "John Smith",
             "Jimmy Hoffa"
         ],
-        "colorhex" : "#ff627e"
+        "color": {
+            "main": "#ff627e",
+            "supplementary": "#fff2f2"
+        }
     },
     {
         "title": "Kamikaze Clones",
@@ -39,7 +42,10 @@ var projects = [
             "John Smith",
             "Jimmy Hoffa"
         ],
-        "colorhex" : "#7d62ff"
+        "color": {
+            "main": "#7d62ff",
+            "supplementary": "#f7f2ff"
+        }
     },
     {
         "title": "Kex",
@@ -60,6 +66,9 @@ var projects = [
             "John Smith",
             "Jimmy Hoffa"
         ],
-        "colorhex" : "#9be67d"
+        "color": {
+            "main": "#9be67d",
+            "supplementary": "#f2fff2"
+        }
     }
 ]

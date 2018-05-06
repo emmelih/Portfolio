@@ -1,6 +1,6 @@
 
 #overview {
-    background-color: #fff2f2;
+    background-color: #ffffff;
     overflow-y: scroll;
 }
 
@@ -30,7 +30,7 @@
 }
 
 #overview-return, #overview-header {
-    color: #ff627e;
+    color: #000000;
 }
 
 #overview-content {

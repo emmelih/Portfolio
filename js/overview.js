@@ -22,6 +22,11 @@ function display_project (project) {
     $('#overview-date').text(project.date)
     $('#overview-image').attr('src', project.image_url)
 
+    // set color scheme
+    $('#overview').css('background-color', project.color.supplementary)
+    $('#overview-return').css('color', project.color.main)
+    $('#overview-title').css('color', project.color.main)
+
     // add each paragraph of the description
     $('#overview-description').text('')
     project.description.forEach((par) => {

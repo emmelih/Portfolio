@@ -26,7 +26,7 @@ function add_project(project) {
     })
 
     // set the border color
-    border.css('border-color', hex2rgba(project.colorhex, 0.7))
+    border.css('border-color', hex2rgba(project.color.main, 0.7))
 
     // add click event listener
     border.click(function (e) {
