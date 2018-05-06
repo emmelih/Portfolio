@@ -2,7 +2,6 @@
 #overview {
     background-color: #fff2f2;
     overflow-y: scroll;
-    padding-top: 10%;
 }
 
 #overview-header {
@@ -15,6 +14,7 @@
 	-webkit-box-align: center;
 
 	align-items: center;
+    padding-top: 5%;
 }
 
 #overview-return {
