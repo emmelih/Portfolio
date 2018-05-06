@@ -35,20 +35,18 @@
 }
 
 #overview-content {
-    display: inline-flex;
     margin: 2.5% 10%;
 }
 
 #overview-textarea {
     width: 60%;
-    text-align: justify;
-    text-justify: inter-word;
-    flex-direction: column;
 }
 
 .overview-text {
     font-family: 'Nunito', sans-serif;
     font-size: 1em;
+    text-align: justify;
+    text-justify: inter-word;
     color: #585858;
 }
 
@@ -66,7 +64,6 @@
 #overview-meta {
     width: 30%;
     margin-left: 5%;
-    flex-direction: column;
 }
 
 #overview-image {

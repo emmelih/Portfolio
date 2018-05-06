@@ -15,14 +15,20 @@ body {
     top: 47%;
 }
 
+.flex-vert {
+    flex-direction: column;
+}
+
+.flex-inline {
+    display: inline-flex;
+}
+
 #intro, #legend, #overview {
     height: 100vh;
     width: 100vw;
 }
 
-
 #panorama {
     height: 100vh;
     width: 200vw;
-    display: inline-flex;
 }
