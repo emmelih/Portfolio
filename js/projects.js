@@ -18,8 +18,8 @@ function add_project(project) {
         text: project.title
     })
     var desc = $('<p/>', {
-        class: 'legend-list-description',
-        text: project.teaser
+        class: 'legend-list-summary',
+        text: project.summary
     })
     var border = $('<div/>', {
         class: 'legend-list-item-border'
