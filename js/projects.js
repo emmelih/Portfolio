@@ -1,9 +1,14 @@
 
-/* add all projects as soon as the page loads */
 $(document).ready(function() {
+
+    /* add all projects as soon as the page loads */
     projects.forEach(function (project) {
         add_project(project)
     })
+
+    // temporary event listener for the overview section so that the view can be restored
+    $('#overview').click((e) => move_panorama(0))
+
 })
 
 /* add the passed project to the list in the legend-section */
@@ -26,6 +31,9 @@ function add_project(project) {
     // set the border color
     border.css('border-color', hex2rgba(project.colorhex, 0.7))
 
+    // add click event listener
+    border.click((e) => move_panorama(-$('#legend').width()))
+
     // assemble the complete list item and add it tot the list
     item.append(
         border.append(
@@ -33,6 +41,13 @@ function add_project(project) {
             desc
         )
     ).appendTo('#legend-project-list')
+}
+
+/* move the `panorama` div */
+function move_panorama (offset) {
+    $('#panorama').css({ 'right': '0px', 'left': '' }).animate({
+        'margin-left' : offset
+    }, 'slow');
 }
 
 /*
