@@ -35,6 +35,7 @@
 
 #overview-content {
     margin: 2.5% 10%;
+    padding-bottom: 10%;
 }
 
 #overview-textarea {
@@ -79,6 +80,6 @@
     width: 90%;
 }
 
-.overview-contrubutors {
+#overview-team {
     color: #8a8a8a;
 }
