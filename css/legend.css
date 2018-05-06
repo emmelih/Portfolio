@@ -3,6 +3,7 @@
 }
 
 #legend-box {
+    overflow:auto;
     background-color: rgba(255, 255, 255, 0.75);
     box-shadow: 2px 2px 1px 1px rgba(0, 0, 0, 0.1);
     margin: 15vh auto 0 auto;
