@@ -30,6 +30,7 @@ function add_project(project) {
 
     // add click event listener
     border.click(function (e) {
+        align_project_overview()
         move_panorama(-$('#legend').width())
         $('body').css('overflow-y', 'hidden')
     })

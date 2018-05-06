@@ -10,6 +10,12 @@ $(document).ready(function() {
     display_project(projects[0])
 })
 
+/* align the project overview with the current view */
+function align_project_overview () {
+    var scroll_height = $(window).scrollTop() -$('#intro').height();
+    $('#overview').css('margin-top', scroll_height);
+}
+
 /* populate the overview-page with project information */
 function display_project (project) {
     // add, date, title and project image
