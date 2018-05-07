@@ -9,9 +9,18 @@
     width: 30vw;
 }
 
-#intro-summary, #intro-summary a {
+.intro-summary, .intro-summary a {
     font-family: 'Nunito', sans-serif;
     color: black;
+    margin-bottom: 10%;
+}
+
+.intro-summary a {
+    font-style: italic;
+}
+
+.intro-summary p {
+    margin: 0;
 }
 
 #intro-name {
