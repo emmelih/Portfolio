@@ -27,6 +27,15 @@ function add_project(project) {
 
     // set the border color
     border.css('border-color', hex2rgba(project.color.main, 0.7))
+    // set the background color on hover
+    border.hover(
+        function() {
+            $(this).css("background-color", hex2rgba(project.color.supplementary, 0.5));
+        },
+        function() {
+            $(this).css("background-color", "rgba(255, 255, 255, 0.60)");
+        }
+    );
 
     // add click event listener
     border.click(function (e) {
