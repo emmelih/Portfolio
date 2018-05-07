@@ -39,7 +39,8 @@ var projects = [
         'summary': 'Investigating Social Recovery Strategies to Minimize the Impact of Failure in Human-Robot Interaction',
         'description': [
             'I wrote my Bachelor’s Thesis in Computer Science on the subject ”robot failures in social contexts”. The result of this work was that a robot was better perceived by the human interacting with it if it did not acknowledge its mistake, compared to when it apologized for its mistakes. Following this I had the opportunity to submit a paper with our mentor, based on the mentioned result.',
-            'This was published in the Proceedings of the first Workshop on Conversational Interruptions in Human-Agent Interactions co-located with 17th International Conference on International Conference on Intelligent Virtual Agents (IVA 2017). Stockholm, Sweden, August 27, 2017.'
+            'This was published in the Proceedings of the first Workshop on Conversational Interruptions in Human-Agent Interactions co-located with 17th International Conference on International Conference on Intelligent Virtual Agents (IVA 2017). Stockholm, Sweden, August 27, 2017.',
+            'link to the workshop: http://ceur-ws.org/Vol-1943/'
         ],
         'contribution': [
             'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
@@ -65,7 +66,8 @@ var projects = [
         'image_url': 'images/bud.jpg',
         'summary': 'Global Gaols Behind the scenes (BTS): A visulaization of the impacts that the global goals have on each other.',
         'description': [
-            'This project was proposed by the Stockholm Environmental Institute (SEI). SEI is an international non-profit research organization working on environment and sustainable development issues. This visualization is based on the data collected and compiled by the SEI about the United Nations Sustainable Development Goals. The main purpose of this data is to make it possible to analyze the interactions between different Sustainable Development Goals. Our visualization of this data set is intended to help researchers identify important connections and interactions between these goals. We used mainly D3.js and React to make it. '
+            'This project was proposed by the Stockholm Environmental Institute (SEI). SEI is an international non-profit research organization working on environment and sustainable development issues. This visualization is based on the data collected and compiled by the SEI about the United Nations Sustainable Development Goals. The main purpose of this data is to make it possible to analyze the interactions between different Sustainable Development Goals. Our visualization of this data set is intended to help researchers identify important connections and interactions between these goals. We used mainly D3.js and React to make it. ',
+            'Link: https://galnegus.github.io/ziba'
         ],
         'contribution': [
             'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolo'
@@ -124,6 +126,7 @@ var projects = [
         'image_url': 'images/bud.jpg',
         'summary': 'Producer of the student play at the Computer Science Chapter at KTH, consisting of about 70 people, with a budget of about 200 000 SEK.',
         'description': [
+            'http://metaspexet.se',
             'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
             'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
         ],
