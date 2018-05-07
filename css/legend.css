@@ -10,8 +10,6 @@
 }
 
 #legend-bio {
-    text-align: justify;
-    text-justify: inter-word;
     padding: 10% 5% 10% 10%;
     height: 25%;
     width: 45%;
@@ -20,12 +18,14 @@
 
 #legend-hello {
     font-family: 'Damion', cursive;
-    font-size: 4em;
+    font-size: 3.5em;
     margin: 0;
     line-height: 1em;
 }
 
 #legend-desc {
+    text-align: justify;
+    text-justify: inter-word;
     position: relative;
     line-height: 1.2em;
     font-size: 1.25em;
