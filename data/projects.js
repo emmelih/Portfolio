@@ -18,6 +18,10 @@ var projects = [
             "John Smith",
             "Jimmy Hoffa"
         ],
+        "tags": [
+            "Informationsdesign",
+            "Mjuk päls"
+        ],
         "color": {
             "main": "#ff627e",
             "supplementary": "#fff2f2"
@@ -42,6 +46,9 @@ var projects = [
             "John Smith",
             "Jimmy Hoffa"
         ],
+        "tags": [
+            "Game design"
+        ],
         "color": {
             "main": "#7d62ff",
             "supplementary": "#f7f2ff"
@@ -65,6 +72,10 @@ var projects = [
             "Jane Doe",
             "John Smith",
             "Jimmy Hoffa"
+        ],
+        "tags": [
+            "Robotics",
+            "Thesis"
         ],
         "color": {
             "main": "#9be67d",

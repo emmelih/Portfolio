@@ -25,6 +25,12 @@ function add_project(project) {
         class: 'legend-list-item-border'
     })
 
+    // add the individual tags
+    var tags = $('<div/>', { class: '.flex-inline' })
+    project.tags.forEach((tag) => {
+        tags.append($('<span/>', { class: 'legend-list-tag', text: tag} ))
+    })
+
     // set the border color
     border.css('border-color', hex2rgba(project.color.main, 0.7))
     // set the background color on hover
@@ -49,7 +55,8 @@ function add_project(project) {
     item.append(
         border.append(
             header,
-            desc
+            desc,
+            tags
         )
     ).appendTo('#legend-project-list')
 }
