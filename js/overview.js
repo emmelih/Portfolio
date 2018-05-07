@@ -31,18 +31,14 @@ function display_project (project) {
     $('#overview-description').text('')
     project.description.forEach((par) => {
         $('#overview-description').append(
-            $('<p/>', {
-                text: par
-            })
+            $('<p/>').html(par)
         )
     })
     // add each paragraph of the statement of contribution
     $('#overview-contribution').text('')
     project.contribution.forEach((par) => {
         $('#overview-contribution').append(
-            $('<p/>', {
-                text: par
-            })
+            $('<p/>').html(par)
         )
     })
     // add each paragraph of the statement of contribution
