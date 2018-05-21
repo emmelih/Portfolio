@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
-    // scroll to legend on click
+    // scroll to portfolio on click
     $('#intro-chevron').click(function() {
         $('html, body').animate({
             scrollTop: $('#intro').height()

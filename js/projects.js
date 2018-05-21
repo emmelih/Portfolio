@@ -8,27 +8,27 @@ $(document).ready(function() {
 
 })
 
-/* add the passed project to the list in the legend-section */
+/* add the passed project to the list in the portfolio-section */
 function add_project(project) {
     var item = $('<div/>', {
-        class: 'legend-list-item',
+        class: 'portfolio-list-item',
     })
     var header = $('<p/>', {
-        class: 'legend-list-header',
+        class: 'portfolio-list-header',
         text: project.title
     })
     var desc = $('<p/>', {
-        class: 'legend-list-summary',
+        class: 'portfolio-list-summary',
         text: project.summary
     })
     var border = $('<div/>', {
-        class: 'legend-list-item-border'
+        class: 'portfolio-list-item-border'
     })
 
     // add the individual tags
     var tags = $('<div/>', { class: '.flex-inline' })
     project.tags.forEach((tag) => {
-        tags.append($('<span/>', { class: 'legend-list-tag', text: tag} ))
+        tags.append($('<span/>', { class: 'portfolio-list-tag', text: tag} ))
     })
 
     // set the border color
@@ -47,7 +47,7 @@ function add_project(project) {
     border.click(function (e) {
         display_project(project)
         align_project_overview()
-        move_panorama(-$('#legend').width())
+        move_panorama(-$('#portfolio').width())
         $('body').css('overflow-y', 'hidden')
     })
 
@@ -58,7 +58,7 @@ function add_project(project) {
             desc,
             tags
         )
-    ).appendTo('#legend-project-list')
+    ).appendTo('#portfolio-project-list')
 }
 
 /* move the `panorama` div */

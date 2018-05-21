@@ -1,29 +1,29 @@
-#legend {
+#portfolio {
     color: #272453;
 }
 
-#legend-box {
+#portfolio-box {
     background-color: rgba(255, 255, 255, 0.75);
     box-shadow: 2px 2px 1px 1px rgba(0, 0, 0, 0.1);
     margin: 5% auto;
     width: 70vw;
 }
 
-#legend-bio {
+#portfolio-bio {
     padding: 10% 5% 10% 10%;
     height: 25%;
     width: 45%;
     float:left;
 }
 
-#legend-hello {
+#portfolio-hello {
     font-family: 'Damion', cursive;
     font-size: 3.5em;
     margin: 0;
     line-height: 1em;
 }
 
-#legend-desc {
+#portfolio-desc {
     text-align: justify;
     text-justify: inter-word;
     position: relative;
@@ -31,47 +31,47 @@
     font-size: 1.25em;
 }
 
-#legend-portait {
+#portfolio-portait {
     border-radius: 50%;
     padding: 7.5% 2.5%;
     width: 30%;
 }
 
-#legend-project-list {
+#portfolio-project-list {
     margin-bottom: 10%;
     padding-bottom: 5%;
 }
 
-.legend-list-item, #legend-desc {
+.portfolio-list-item, #portfolio-desc {
     font-family: 'Varela Round', sans-serif;
 }
 
-.legend-list-item-border {
+.portfolio-list-item-border {
     height: 100%;
     padding: 2.5% 5%;
     border-left: 20px solid;
     background-color: rgba(255, 255, 255, 0.60);
 }
 
-.legend-list-item {
+.portfolio-list-item {
     padding-left: 10%;
     padding-right: 10%;
     margin-bottom: 5%;
 }
 
-.legend-list-header {
+.portfolio-list-header {
     font-size: 2em;
     font-weight: bold;
     margin-bottom: 0;
 }
 
-.legend-list-summary {
+.portfolio-list-summary {
     color: #777e9d;
     text-align: justify;
     text-justify: inter-word;
 }
 
-.legend-list-tag {
+.portfolio-list-tag {
     padding: 0 2%;
     margin-right: 2%;
     border: 2px solid;
