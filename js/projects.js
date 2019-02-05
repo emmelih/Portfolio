@@ -28,7 +28,10 @@ function add_project(project) {
     // add the individual tags
     var tags = $('<div/>', { class: '.flex-inline' })
     project.tags.forEach((tag) => {
-        tags.append($('<span/>', { class: 'portfolio-list-tag', text: tag} ))
+        tags.append($('<span/>', { class: 'portfolio-list-tag', text: tag} )
+        .css('background-color', hex2rgba(project.color.supplementary,0.5))
+        .css('color', project.color.main)
+        .css('border-color', project.color.main))
     })
 
     // set the border color

@@ -1,9 +1,9 @@
 #portfolio {
-    color: #272453;
+    color: #f6f8f9;
 }
 
 #portfolio-box {
-    background-color: rgba(255, 255, 255, 0.75);
+    background-color: rgba(0, 38, 65, 0.3);
     box-shadow: 2px 2px 1px 1px rgba(0, 0, 0, 0.1);
     margin: 5% auto;
     width: 70vw;
@@ -60,13 +60,14 @@
 }
 
 .portfolio-list-header {
+    color: rgb(0, 38, 65);
     font-size: 2em;
     font-weight: bold;
     margin-bottom: 0;
 }
 
 .portfolio-list-summary {
-    color: #777e9d;
+    color: rgba(0, 38, 65, 0.8);
     text-align: justify;
     text-justify: inter-word;
 }
@@ -74,7 +75,7 @@
 .portfolio-list-tag {
     padding: 0 2%;
     margin-right: 2%;
-    border: 2px solid;
+    border: 1px solid;
     border-radius: 10px;
     /* border-bottom-left-radius: 10px/50%; */
     border-color: #b0b4cb;

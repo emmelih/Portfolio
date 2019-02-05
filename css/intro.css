@@ -3,7 +3,7 @@
 }
 
 #intro-box {
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(0, 38, 65, 0.35);
     padding: 1vw 2vw 1vw 2vw;
     margin: 0 auto;
     width: 30vw;
@@ -11,7 +11,7 @@
 
 .intro-summary, .intro-summary a {
     font-family: 'Nunito', sans-serif;
-    color: black;
+    color: #f6f8f9;
     margin-bottom: 10%;
 }
 
@@ -25,6 +25,7 @@
 
 #intro-name {
     font-family: 'Nunito', sans-serif;
+    color: white;
 }
 
 #intro-chevron {

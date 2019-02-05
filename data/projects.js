@@ -9,7 +9,8 @@ var projects = [
             'This project was part of a course at KTH called Physical Interaction Design, where we were tasked to create a physical prototype of something, with a focus on the physical interaction itself. The theme of the prototype was "library" and to my team and I, we associate the library with studying. So we wanted to create something that would keep you company, as well as be useful. It took a few iterations to find out what we wanted our Bud\' to do, but that is all part of the process, and enabled us to think about the different materials and possible interactions.',
             'We were really able get creative and create something hands-on. Inside Bud\', there is a Arduino UNO controlling the sensors, and the lights under the fluffy material. On Bud\'s head we created a stroke sensor with conductive thread.',
             'Heres a video we made of how Bud\' works!',
-            'https://drive.google.com/file/d/1TkU5cXudg43ez6O_Fb3opBjTouG7pbin/view?usp=sharing',
+            '<a href="https://drive.google.com/file/d/1TkU5cXudg43ez6O_Fb3opBjTouG7pbin/view?usp=sharing">hello</a>',
+            '<iframe src="https://drive.google.com/file/d/1TkU5cXudg43ez6O_Fb3opBjTouG7pbin/preview" width="640" height="480"></iframe>',
             'And here are step by step instructions on how we made Bud\' ',
             'https://docs.google.com/document/d/1yQfug_rYaPE4GElX3HiJwUWQt8E3_v_jzEgzQnraVHQ/edit?usp=sharing'
         ],
