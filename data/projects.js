@@ -8,11 +8,8 @@ var projects = [
             'Bud’ is a furry friend which keeps tabs on your studying environment. Bud’ monitors the temperature, light, and noise of your environment and is meant to be placed on the table. At rest, Bud’ LEDs enter a "breathing pattern" and will activate other functionality when stroked. Stroke once, twice, or thrice to activate light, temperature, or noise mode. Bud’ will show different leds and colours depending on mode to visualize the different modes.',
             'This project was part of a course at KTH called Physical Interaction Design, where we were tasked to create a physical prototype of something, with a focus on the physical interaction itself. The theme of the prototype was "library" and to my team and I, we associate the library with studying. So we wanted to create something that would keep you company, as well as be useful. It took a few iterations to find out what we wanted our Bud\' to do, but that is all part of the process, and enabled us to think about the different materials and possible interactions.',
             'We were really able get creative and create something hands-on. Inside Bud\', there is a Arduino UNO controlling the sensors, and the lights under the fluffy material. On Bud\'s head we created a stroke sensor with conductive thread.',
-            'Heres a video we made of how Bud\' works!',
-            '<a href="https://drive.google.com/file/d/1TkU5cXudg43ez6O_Fb3opBjTouG7pbin/view?usp=sharing">hello</a>',
-            '<iframe src="https://drive.google.com/file/d/1TkU5cXudg43ez6O_Fb3opBjTouG7pbin/preview" width="640" height="480"></iframe>',
-            'And here are step by step instructions on how we made Bud\' ',
-            'https://docs.google.com/document/d/1yQfug_rYaPE4GElX3HiJwUWQt8E3_v_jzEgzQnraVHQ/edit?usp=sharing'
+            '<a href="https://drive.google.com/file/d/1TkU5cXudg43ez6O_Fb3opBjTouG7pbin/view?usp=sharing">Here\'s</a> a video we made of how Bud\' works!',
+            'And <a href=https://docs.google.com/document/d/1yQfug_rYaPE4GElX3HiJwUWQt8E3_v_jzEgzQnraVHQ/edit?usp=sharing>here</a> are step by step instructions on how we made Bud\'. '
         ],
         'contribution': [
             'The team worked a lot together in creating Bud\'. We brainstormed and discussed a lot, to come up with the idea, and when making follow-up decisions.',
@@ -26,7 +23,7 @@ var projects = [
         'tags': [
             'Physical Interaction Design',
             'Physical Prototyping',
-            'Fluffy'
+            'Multimodal'
         ],
         'color': {
             'main': '#ff627e',
@@ -41,10 +38,10 @@ var projects = [
         'description': [
             'I wrote my Bachelor’s Thesis in Computer Science on the subject ”robot failures in social contexts”. The result of this work was that a robot was better perceived by the human interacting with it if it did not acknowledge its mistake, compared to when it apologized for its mistakes. Following this I had the opportunity to submit a paper with our mentor, based on the mentioned result.',
             'This was published in the Proceedings of the first Workshop on Conversational Interruptions in Human-Agent Interactions co-located with 17th International Conference on International Conference on Intelligent Virtual Agents (IVA 2017). Stockholm, Sweden, August 27, 2017.',
-            'link to the workshop: http://ceur-ws.org/Vol-1943/'
+            '<a href="http://ceur-ws.org/Vol-1943/">Here\'s</a> the link to the workshop.'
         ],
         'contribution': [
-            'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+            ''
         ],
         'team': [
             'Sara Engelhardt',
@@ -60,66 +57,6 @@ var projects = [
         'color': {
             'main': '#7d62ff',
             'supplementary': '#f7f2ff'
-        }
-    },
-    {
-        'title': 'Global Goals: BTS',
-        'date': 'January - April, 2018',
-        'image_url': 'images/ziba.jpg',
-        'summary': 'Global Gaols Behind the scenes (BTS): A visulaization of the impacts that the global goals have on each other.',
-        'description': [
-            'This project was proposed by the Stockholm Environmental Institute (SEI). SEI is an international non-profit research organization working on environment and sustainable development issues. This visualization is based on the data collected and compiled by the SEI about the United Nations Sustainable Development Goals. The main purpose of this data is to make it possible to analyze the interactions between different Sustainable Development Goals. Our visualization of this data set is intended to help researchers identify important connections and interactions between these goals. We used mainly D3.js and React to make it. ',
-            'Link: https://galnegus.github.io/ziba'
-        ],
-        'contribution': [
-            'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolo'
-        ],
-        'team': [
-            'Emmeli Hansson',
-            'Daniel Isheden',
-            'Leif Tysell Sundkvist',
-            'Linnéa Granlund',
-            'Pournami Krishnakumari',
-            'Sarah Berenji Ardestani',
-            'Sihan Yuan',
-            'Tobias Hindersson'
-        ],
-        'tags': [
-            'Information Visualization',
-            'Global Goals'
-        ],
-        'color': {
-            'main': '#9be67d',
-            'supplementary': '#f2fff2'
-        }
-    },
-    {
-        'title': 'Kamiclones',
-        'date': 'October - December, 2017',
-        'image_url': 'images/kamicloneslogo.png',
-        'summary': 'If you kill your clone, is it murder or suicide? A 2D puzzle and platform game, where you use death to your advantage, killing your clones in a tactical way to clear the levels.',
-        'description': [
-            'The link to our website: https://kamiclones.wixsite.com/mysite',
-            'This is a game made in a period of 6 weeks with a group of 6 fellow students. '
-        ],
-        'contribution': [
-            'I had the role of project leader and organized the project work. However since 6 weeks is a short amount of time, we all pitched in all areas where work needed to be done.'
-        ],
-        'team': [
-            'Benjamin Délèze',
-            'Emmeli Hansson',
-            'Conrad Hildebrand',
-            'Daniel Isheden',
-            'Alexander Janson',
-            'Antonio Morais'
-        ],
-        'tags': [
-            'Game Design',
-            'Project management'
-        ],
-        'color': {
-            'main': '#ffea6e',
-            'supplementary': '#fffdf4'
         }
     },
     {
@@ -149,5 +86,81 @@ var projects = [
             'main': '#9c2844',
             'supplementary': '#ffdeea'
         }
+    },
+    {
+        'title': 'AR-Farm',
+        'date': 'November 2018 - January 2019',
+        'image_url': 'images/arfarm.png',
+        'summary': 'AR-Farm',
+        'description': [
+            ''
+        ],
+        'contribution': [
+            ''
+        ],
+        'team': [
+            'Emmeli Hansson',
+            'Sofia Jacobsson',
+            'Anna Eklund',
+            'Carolina Westlin'
+
+        ],
+        'tags': [
+            'Multimodal'
+        ],
+        'color': {
+          'main': '#ff627e',
+          'supplementary': '#fff2f2'
+        }
+    },
+    {
+        'title': 'Haptic Art Project',
+        'date': 'October - December, 2017',
+        'image_url': 'images/falcon5.jpg',
+        'summary': '',
+        'description': [
+          ''
+        ],
+        'contribution': [
+            ''
+        ],
+        'team': [
+            'Emmeli Hansson',
+            'Sofia Jacobsson',
+            'Linnea Fornander'
+        ],
+        'tags': [
+            'Multimodal',
+        ],
+        'color': {
+          'main': '#ff627e',
+          'supplementary': '#fff2f2'
+        }
+    },
+    {
+        'title': 'Master Thesis',
+        'date': 'Spring 2019',
+        'image_url': 'images/cozmo.jpg',
+        'summary': 'Combining Social Robotics and Augmented Reality.',
+        'description': [
+            'I got interested in robotics after my Bachelor Thesis. The Master Thesis has just started so I cannot tell you very much about what it\'s about, but it combines robotics and multimodality of Augmented Reality. '
+        ],
+        'contribution': [
+            ''
+        ],
+        'team': [
+            'Emmeli Hansson'
+        ],
+        'tags': [
+            'Ongoing',
+            'Robotics',
+            'Master Thesis',
+            'Augmented Reality'
+        ],
+        'color': {
+            'main': '#7d62ff',
+            'supplementary': '#f7f2ff'
+        }
     }
+
 ]
