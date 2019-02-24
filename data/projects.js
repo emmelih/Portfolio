@@ -26,8 +26,8 @@ var projects = [
             'Multimodal'
         ],
         'color': {
-            'main': '#ff627e',
-            'supplementary': '#fff2f2'
+          'main': '#7d62ff',
+          'supplementary': '#f7f2ff'
         }
     },
     {
@@ -83,8 +83,8 @@ var projects = [
             'Theater'
         ],
         'color': {
-            'main': '#9c2844',
-            'supplementary': '#ffdeea'
+          'main': '#7d62ff',
+          'supplementary': '#f7f2ff'
         }
     },
     {
@@ -109,8 +109,8 @@ var projects = [
             'Multimodal'
         ],
         'color': {
-          'main': '#ff627e',
-          'supplementary': '#fff2f2'
+          'main': '#7d62ff',
+          'supplementary': '#f7f2ff'
         }
     },
     {
@@ -133,8 +133,8 @@ var projects = [
             'Multimodal',
         ],
         'color': {
-          'main': '#ff627e',
-          'supplementary': '#fff2f2'
+          'main': '#7d62ff',
+          'supplementary': '#f7f2ff'
         }
     },
     {
@@ -158,8 +158,8 @@ var projects = [
             'Augmented Reality'
         ],
         'color': {
-            'main': '#7d62ff',
-            'supplementary': '#f7f2ff'
+          'main': '#7d62ff',
+          'supplementary': '#f7f2ff'
         }
     }
 
