@@ -25,37 +25,6 @@ var projects = [
       }
   },
     {
-        'title': 'Bud\' - A study companion',
-        'date': 'January - April, 2018',
-        'image_url_1': 'images/insideBud2.jpg',
-        'image_url_2': 'images/buddy.jpg',
-        'summary': 'Bud\', a furry friend which keeps tabs on your studying environment, is a physical prototype which we created from scratch with an Arduino UNO, sensors and physical materials.',
-        'description': [
-            'Bud’ is a furry friend which keeps tabs on your studying environment. Bud’ monitors the temperature, light, and noise of your environment and is meant to be placed on the table. At rest, Bud’ LEDs enter a "breathing pattern" and will activate other functionality when stroked. Stroke once, twice, or thrice to activate light, temperature, or noise mode. Bud’ will show different leds and colours depending on mode to visualize the different modes.',
-            'This project was part of a course at KTH called Physical Interaction Design, where we were tasked to create a physical prototype of something, with a focus on the physical interaction itself. The theme of the prototype was "library" and to my team and I, we associate the library with studying. So we wanted to create something that would keep you company, as well as be useful. It took a few iterations to find out what we wanted our Bud\' to do, but that is all part of the process, and enabled us to think about the different materials and possible interactions.',
-            'We were really able get creative and create something hands-on. Inside Bud\', there is a Arduino UNO controlling the sensors, and the lights under the fluffy material. On Bud\'s head we created a stroke sensor with conductive thread.',
-            '<a href="https://drive.google.com/file/d/1TkU5cXudg43ez6O_Fb3opBjTouG7pbin/view?usp=sharing">Here\'s</a> a video we made of how Bud\' works!',
-            'And <a href=https://docs.google.com/document/d/1yQfug_rYaPE4GElX3HiJwUWQt8E3_v_jzEgzQnraVHQ/edit?usp=sharing>here</a> are step by step instructions on how we made Bud\'. '
-        ],
-        'contribution': [
-            'The team worked a lot together in creating Bud\'. We brainstormed and discussed a lot, to come up with the idea, and when making follow-up decisions.',
-            'Specific things that I did were creating the schematics we then used in the instructable, drawing the pattern we needed to laser cut for the plattform... However, the large majority of the work was done together.'
-        ],
-        'team': [
-            'Emmeli Hansson',
-            'Sofia Jacobsson',
-            'Henrik Johansson'
-        ],
-        'tags': [
-            '#Physical Interaction Design',
-            '#Multimodal Interaction'
-        ],
-        'color': {
-          'main': '#7d62ff',
-          'supplementary': '#f7f2ff'
-        }
-    },
-    {
         'title': 'Better Faulty than Sorry',
         'date': 'Spring 2017',
         'image_url_1': 'images/kex.jpg',
@@ -157,6 +126,37 @@ var projects = [
         'tags': [
             '#Multimodal Interaction',
             '#Physical Interaction Design'
+        ],
+        'color': {
+          'main': '#7d62ff',
+          'supplementary': '#f7f2ff'
+        }
+    },
+    {
+        'title': 'Bud\' - A study companion',
+        'date': 'January - April, 2018',
+        'image_url_1': 'images/insideBud2.jpg',
+        'image_url_2': 'images/buddy.jpg',
+        'summary': 'Bud\', a furry friend which keeps tabs on your studying environment, is a physical prototype which we created from scratch with an Arduino UNO, sensors and physical materials.',
+        'description': [
+            'Bud’ is a furry friend which keeps tabs on your studying environment. Bud’ monitors the temperature, light, and noise of your environment and is meant to be placed on the table. At rest, Bud’ LEDs enter a "breathing pattern" and will activate other functionality when stroked. Stroke once, twice, or thrice to activate light, temperature, or noise mode. Bud’ will show different leds and colours depending on mode to visualize the different modes.',
+            'This project was part of a course at KTH called Physical Interaction Design, where we were tasked to create a physical prototype of something, with a focus on the physical interaction itself. The theme of the prototype was "library" and to my team and I, we associate the library with studying. So we wanted to create something that would keep you company, as well as be useful. It took a few iterations to find out what we wanted our Bud\' to do, but that is all part of the process, and enabled us to think about the different materials and possible interactions.',
+            'We were really able get creative and create something hands-on. Inside Bud\', there is a Arduino UNO controlling the sensors, and the lights under the fluffy material. On Bud\'s head we created a stroke sensor with conductive thread.',
+            '<a href="https://drive.google.com/file/d/1TkU5cXudg43ez6O_Fb3opBjTouG7pbin/view?usp=sharing">Here\'s</a> a video we made of how Bud\' works!',
+            'And <a href=https://docs.google.com/document/d/1yQfug_rYaPE4GElX3HiJwUWQt8E3_v_jzEgzQnraVHQ/edit?usp=sharing>here</a> are step by step instructions on how we made Bud\'. '
+        ],
+        'contribution': [
+            'The team worked a lot together in creating Bud\'. We brainstormed and discussed a lot, to come up with the idea, and when making follow-up decisions.',
+            'Specific things that I did were creating the schematics we then used in the instructable, drawing the pattern we needed to laser cut for the plattform... However, the large majority of the work was done together.'
+        ],
+        'team': [
+            'Emmeli Hansson',
+            'Sofia Jacobsson',
+            'Henrik Johansson'
+        ],
+        'tags': [
+            '#Physical Interaction Design',
+            '#Multimodal Interaction'
         ],
         'color': {
           'main': '#7d62ff',
