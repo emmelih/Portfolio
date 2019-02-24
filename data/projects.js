@@ -1,8 +1,33 @@
 var projects = [
+  {
+      'title': 'Master Thesis Project',
+      'date': 'Spring 2019',
+      'image_url_1': 'images/cozmo1.jpg',
+      'image_url_2': 'images/cozmo.jpg',
+      'summary': 'For my master thesis project I will be working with Social Robotics and Augmented Reality.',
+      'description': [
+          'I got interested in Social Robotics through my Bachelor Thesis. The Master Thesis project has just started so I cannot tell you very much about what it\'s about, but it combines robotics and the multimodality of Augmented Reality. The robot I’ll be using will be a Anki Cozmo, see pictures!'
+      ],
+      'contribution': [
+          ''
+      ],
+      'team': [
+          'Emmeli Hansson'
+      ],
+      'tags': [
+          '#Ongoing',
+          '#Social Robotics',
+          '#Multimodal Interaction'
+      ],
+      'color': {
+        'main': '#7d62ff',
+        'supplementary': '#f7f2ff'
+      }
+  },
     {
         'title': 'Bud\' - A study companion',
         'date': 'January - April, 2018',
-        'image_url_1': 'images/buddy.jpg',
+        'image_url_1': 'images/insideBud2.jpg',
         'image_url_2': 'images/buddy.jpg',
         'summary': 'Bud\', a furry friend which keeps tabs on your studying environment, is a physical prototype which we created from scratch with an Arduino UNO, sensors and physical materials.',
         'description': [
@@ -22,9 +47,8 @@ var projects = [
             'Henrik Johansson'
         ],
         'tags': [
-            'Physical Interaction Design',
-            'Physical Prototyping',
-            'Multimodal'
+            '#Physical Interaction Design',
+            '#Multimodal Interaction'
         ],
         'color': {
           'main': '#7d62ff',
@@ -34,9 +58,9 @@ var projects = [
     {
         'title': 'Better Faulty than Sorry',
         'date': 'Spring 2017',
-        'image_url_1': 'images/nao.jpg',
+        'image_url_1': 'images/kex.jpg',
         'image_url_2': 'images/nao.jpg',
-        'summary': 'Investigating Social Recovery Strategies to Minimize the Impact of Failure in Human-Robot Interaction',
+        'summary': 'Investigating Social Recovery Strategies to Minimize the Impact of Failure in Human-Robot Interaction for my Bachelor Thesis',
         'description': [
             'I wrote my Bachelor’s Thesis in Computer Science on the subject ”robot failures in social contexts”. The result of this work was that a robot was better perceived by the human interacting with it if it did not acknowledge its mistake, compared to when it apologized for its mistakes. Following this I had the opportunity to submit a paper with our mentor, based on the mentioned result.',
             'This was published in the Proceedings of the first Workshop on Conversational Interruptions in Human-Agent Interactions co-located with 17th International Conference on International Conference on Intelligent Virtual Agents (IVA 2017). Stockholm, Sweden, August 27, 2017.',
@@ -51,10 +75,7 @@ var projects = [
             'Iolanda Leite'
         ],
         'tags': [
-            'Robotics',
-            'CEUR Workshop Proceedings',
-            'Bachelor Thesis',
-            'Nao'
+            '#Social Robotics'
         ],
         'color': {
             'main': '#7d62ff',
@@ -65,7 +86,7 @@ var projects = [
         'title': 'Producer of METAspexet 2018',
         'date': ' May 2017 - May, 2018',
         'image_url_1': 'images/spexa.jpg',
-        'image_url_2': 'images/spexa.jpg',
+        'image_url_2': 'images/dirre.jpg',
         'summary': 'Producer of the student play at the Computer Science Chapter at KTH, consisting of about 70 people, with a budget of about 200 000 SEK.',
         'description': [
             'http://metaspexet.se',
@@ -136,32 +157,6 @@ var projects = [
         ],
         'tags': [
             'Multimodal',
-        ],
-        'color': {
-          'main': '#7d62ff',
-          'supplementary': '#f7f2ff'
-        }
-    },
-    {
-        'title': 'Master Thesis',
-        'date': 'Spring 2019',
-        'image_url_1': 'images/cozmo.jpg',
-        'image_url_2': 'images/cozmo.jpg',
-        'summary': 'Combining Social Robotics and Augmented Reality.',
-        'description': [
-            'I got interested in robotics after my Bachelor Thesis. The Master Thesis has just started so I cannot tell you very much about what it\'s about, but it combines robotics and multimodality of Augmented Reality. '
-        ],
-        'contribution': [
-            ''
-        ],
-        'team': [
-            'Emmeli Hansson'
-        ],
-        'tags': [
-            'Ongoing',
-            'Robotics',
-            'Master Thesis',
-            'Augmented Reality'
         ],
         'color': {
           'main': '#7d62ff',
