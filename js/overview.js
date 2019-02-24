@@ -20,7 +20,8 @@ function display_project (project) {
     // add, date, title and project image
     $('#overview-title').text(project.title)
     $('#overview-date').text(project.date)
-    $('#overview-image').attr('src', project.image_url)
+    $('#overview-image-1').attr('src', project.image_url_1)
+    $('#overview-image-2').attr('src', project.image_url_2)
 
     // set color scheme
     $('#overview').css('background-color', project.color.supplementary)

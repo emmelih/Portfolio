@@ -2,7 +2,8 @@ var projects = [
     {
         'title': 'Bud\' - A study companion',
         'date': 'January - April, 2018',
-        'image_url': 'images/buddy.jpg',
+        'image_url_1': 'images/buddy.jpg',
+        'image_url_2': 'images/buddy.jpg',
         'summary': 'Bud\', a furry friend which keeps tabs on your studying environment, is a physical prototype which we created from scratch with an Arduino UNO, sensors and physical materials.',
         'description': [
             'Bud’ is a furry friend which keeps tabs on your studying environment. Bud’ monitors the temperature, light, and noise of your environment and is meant to be placed on the table. At rest, Bud’ LEDs enter a "breathing pattern" and will activate other functionality when stroked. Stroke once, twice, or thrice to activate light, temperature, or noise mode. Bud’ will show different leds and colours depending on mode to visualize the different modes.',
@@ -33,7 +34,8 @@ var projects = [
     {
         'title': 'Better Faulty than Sorry',
         'date': 'Spring 2017',
-        'image_url': 'images/nao.jpg',
+        'image_url_1': 'images/nao.jpg',
+        'image_url_2': 'images/nao.jpg',
         'summary': 'Investigating Social Recovery Strategies to Minimize the Impact of Failure in Human-Robot Interaction',
         'description': [
             'I wrote my Bachelor’s Thesis in Computer Science on the subject ”robot failures in social contexts”. The result of this work was that a robot was better perceived by the human interacting with it if it did not acknowledge its mistake, compared to when it apologized for its mistakes. Following this I had the opportunity to submit a paper with our mentor, based on the mentioned result.',
@@ -62,7 +64,8 @@ var projects = [
     {
         'title': 'Producer of METAspexet 2018',
         'date': ' May 2017 - May, 2018',
-        'image_url': 'images/spexa.jpg',
+        'image_url_1': 'images/spexa.jpg',
+        'image_url_2': 'images/spexa.jpg',
         'summary': 'Producer of the student play at the Computer Science Chapter at KTH, consisting of about 70 people, with a budget of about 200 000 SEK.',
         'description': [
             'http://metaspexet.se',
@@ -90,7 +93,8 @@ var projects = [
     {
         'title': 'AR-Farm',
         'date': 'November 2018 - January 2019',
-        'image_url': 'images/arfarm.png',
+        'image_url_1': 'images/arfarm.png',
+        'image_url_2': 'images/arfarm.png',
         'summary': 'AR-Farm',
         'description': [
             ''
@@ -116,7 +120,8 @@ var projects = [
     {
         'title': 'Haptic Art Project',
         'date': 'October - December, 2017',
-        'image_url': 'images/falcon5.jpg',
+        'image_url_1': 'images/falcon5.jpg',
+        'image_url_2': 'images/falcon5.jpg',
         'summary': '',
         'description': [
           ''
@@ -140,7 +145,8 @@ var projects = [
     {
         'title': 'Master Thesis',
         'date': 'Spring 2019',
-        'image_url': 'images/cozmo.jpg',
+        'image_url_1': 'images/cozmo.jpg',
+        'image_url_2': 'images/cozmo.jpg',
         'summary': 'Combining Social Robotics and Augmented Reality.',
         'description': [
             'I got interested in robotics after my Bachelor Thesis. The Master Thesis has just started so I cannot tell you very much about what it\'s about, but it combines robotics and multimodality of Augmented Reality. '

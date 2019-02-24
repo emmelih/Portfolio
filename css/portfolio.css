@@ -75,8 +75,8 @@
 .portfolio-list-tag {
     padding: 0 2%;
     margin-right: 2%;
-    border: 1px solid;
-    border-radius: 10px;
+    /* border: 1px solid;
+    border-radius: 10px; */
     /* border-bottom-left-radius: 10px/50%; */
     border-color: #b0b4cb;
     color: #999eb9;
