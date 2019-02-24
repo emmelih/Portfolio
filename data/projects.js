@@ -87,24 +87,19 @@ var projects = [
         'date': ' May 2017 - May, 2018',
         'image_url_1': 'images/spexa.jpg',
         'image_url_2': 'images/dirre.jpg',
-        'summary': 'Producer of the student play at the Computer Science Chapter at KTH, consisting of about 70 people, with a budget of about 200 000 SEK.',
+        'summary': 'During 2018 I was the producer of the student play at the Computer Science Chapter at KTH, consisting of about 70 people, with a budget of about 200 000 SEK.',
         'description': [
-            'http://metaspexet.se',
-            'This project is still ongoing.',
-            'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
-            'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
+            'METAspexet is a student play at the Computer Science Chapter at KTH, consisting of about 70 people, with a budget of about 200 000 SEK. In Swedish it’s called a spex. It is an interactive musical play with lots of improve. During 2018 I was the producer. I recruited group leaders, made a plan for the project together with these group leaders and recruited significantly more members than the year before. I managed to make the project better organized than it has been before and we even sold all the tickets to our shows, which hasn’t been done since I started at KTH. I really enjoyed being the producer and all the challenges that entailed, and I learned a lot during the experience!'
         ],
         'contribution': [
-            'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-            'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-            'Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
+            ''
         ],
         'team': [
-            'Emmeli Hansson'
+            'Emmeli Hansson',
+            'and about 70 more people'
         ],
         'tags': [
-            'Project management',
-            'Theater'
+            '# Project management'
         ],
         'color': {
           'main': '#7d62ff',
@@ -114,11 +109,13 @@ var projects = [
     {
         'title': 'AR-Farm',
         'date': 'November 2018 - January 2019',
-        'image_url_1': 'images/arfarm.png',
+        'image_url_1': 'images/arfarm2.png',
         'image_url_2': 'images/arfarm.png',
-        'summary': 'AR-Farm',
+        'summary': 'In this project we explored Augmented Reality by creating an AR-Farm!',
         'description': [
-            ''
+            'In this project we got to explore the use of AR. <a href="https://vimeo.com/311083444">Here\'s</a> a demo!',
+            'With the advancement of technology, the tools for creating Augmented Reality (AR) applications have made it possible for developers to build applications for both entertainment and educational purposes. At the same time, technology is becoming increasingly common in the classroom, where laptops and tablets are replacing books and notepads. There is evidence which shows that technical tools in the classrooms are valuable learning aids, especially the high level of interactivity in AR which is shown to have a positive impact on learning AR in applications can add value to the physical world through virtual data and services.',
+            'In this project, we aimed to develop an AR application that can provide children and people living in urban areas with a tool that creates a fun, on-the-go learning environment. The purpose of the application is to provide a tool to learn about animals living on a farm, using both visual and sonification modalities. AR is used to study future interaction possibilities of learning platforms which, traditionally, provide a 2D visual output. The aim is that the combination of AR, sound and physical movements of the body will provide a richer user experience and, hopefully, a more rapid learning curve.'
         ],
         'contribution': [
             ''
@@ -131,7 +128,7 @@ var projects = [
 
         ],
         'tags': [
-            'Multimodal'
+            '#Multimodal Interaction'
         ],
         'color': {
           'main': '#7d62ff',
@@ -141,11 +138,13 @@ var projects = [
     {
         'title': 'Haptic Art Project',
         'date': 'October - December, 2017',
-        'image_url_1': 'images/falcon5.jpg',
+        'image_url_1': 'images/art.png',
         'image_url_2': 'images/falcon5.jpg',
-        'summary': '',
+        'summary': 'In this project I got to explore the field of haptics, and how that multimodal interaction could be explored, through artwork.',
         'description': [
-          ''
+          'In this project, we combined two fields. The field of haptics, using the haptic device Novint Falcon and the method normal mapping to create a texture one could “feel”, and Formal Analysis which is a way used to study how people perceive art.  Both were new fields for us and an interesting cross-disciplinary study to conduct. Testing haptics with participants was especially fun and interesting.',
+          'Results were collected as text-answers in a survey. So there was a lot of qualitative data, which was interesting to analyze! Especially since we had mostly made use of quantitative data up until then. The question we aimed to answer was: How the user perceives a normal map of an image compared to looking at it visually? And what properties and styles of artworks are most similarly perceived?',
+          'We had participant feel three artworks with the haptic device and answer the questions from the formal analysis. Then we had them see the same artworks without knowing they were the same and answer the same questions. The conclusions were that the properties that were the most similar were sharp lines and strong contrasts. The properties that were not similar were that abstract was perceived as figurative and vice versa.'
         ],
         'contribution': [
             ''
@@ -156,7 +155,8 @@ var projects = [
             'Linnea Fornander'
         ],
         'tags': [
-            'Multimodal',
+            '#Multimodal Interaction',
+            '#Physical Interaction Design'
         ],
         'color': {
           'main': '#7d62ff',
