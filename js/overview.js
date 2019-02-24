@@ -35,12 +35,12 @@ function display_project (project) {
         )
     })
     // add each paragraph of the statement of contribution
-    $('#overview-contribution').text('')
-    project.contribution.forEach((par) => {
-        $('#overview-contribution').append(
-            $('<p/>').html(par)
-        )
-    })
+    // $('#overview-contribution').text('')
+    // project.contribution.forEach((par) => {
+    //     $('#overview-contribution').append(
+    //         $('<p/>').html(par)
+    //     )
+    // })
     // add each paragraph of the statement of contribution
     $('#overview-team').text('')
     project.team.forEach((member) => {
